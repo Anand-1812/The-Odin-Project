@@ -115,3 +115,67 @@ ul {
 .text {
     text-align: center;
 }
+
+.quote {
+    width: 100%;
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    width: 800px;
+    font-size: 36px;
+    font: lighter;
+    font-family: 'Roboto';
+}
+
+.quote > p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font: bold;
+}
+
+.sign-up {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.sign-up div {
+    background-color: #3883F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 1000px;
+    gap: 24px;
+    border-radius: 5px;
+}
+
+.sign-up button {
+    font-size: 20px;
+    background-color: #3883F6;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    border: solid white;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+footer {
+    color: white;
+    font: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1f2937;
+}
