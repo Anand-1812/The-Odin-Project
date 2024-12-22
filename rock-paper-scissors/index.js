@@ -1,7 +1,7 @@
 alert("You have 5 chance to beat computer🙃");
 alert("TO know the result press f12 or Fn with f12👍");
 
-let round = 25;
+let round = 5;
 
 let humanScore = 0, computerScore = 0;
 
